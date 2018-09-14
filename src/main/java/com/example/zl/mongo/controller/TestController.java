@@ -1,8 +1,8 @@
 package com.example.zl.mongo.controller;
 
 import com.example.zl.mongo.model.TestBean;
-import com.twodfire.share.result.Result;
-import com.twodfire.share.result.ResultSupport;
+import com.example.zl.mongo.service.Result;
+import com.example.zl.mongo.service.impl.ResultSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
